@@ -10,7 +10,8 @@ THEATER OUTCOMES BASED ON LAUNCH DATE
 
 In the chart below, we can see that the May and June had the most successful launch dates with 111 and 100 outcomes, respectively while December had the least successful with 37 outcomes for the play Fever. May and July had the highest number of failed outcomes with 52 and 50 failed outcomes while November had the least failed outcomes at 31. Finally, January had the highest level of canceled shows with 7 outcomes while July had 1 canceled outcome and October had no data whatsoever for canceled shows.
 
-!Theater_Outcomes_vs_Launch](path/to/Theater_Outcomes_vs_Launch.png)
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/85265504/152087772-8395e486-2f55-439b-95c6-475396a8d0d1.png)
+
 
 CHALLENGES
 When plotting this graph, I initially used Scattered line chart, but that selection did not display the results in the correct format needed to analyze the data. The data points were on the wrong side of the axis and did not align with the numbers on the y-axis. Due to this mishap, I used the line chart instead and it displayed the data correctly and made it easier to successfully analyze the data.
@@ -19,9 +20,7 @@ OUTCOMES BASED ON GOALS
 
 To determine the outcomes based on goals, we created 12 rows with goals that are less than 1000, between 1000 and 4999, 5000 and 9999, 10000 and 14999, 15000 and 19999, 20000 and 24999, 25000 and 29,999, 30000 and 34999, 35000 and 39999, 40000 and 49999, and greater than 50000. Then we created columns for the number of outcomes that were successful, failed and canceled, determined the total of all three and percentages for each. To determine the number of outcomes, we used the COUNTIFS formula, and I used the ROUND formula to determine the percentages of each. 
 
-
-!Outcomes_vs_Goals](path/to/Outcomes_vs_Goals.png)
-
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/85265504/152087855-a284fa38-ae9c-4d20-936d-6c7ca6de3124.png)
 
 According to the graph above, we can see that goals less than 1000 had the highest number of successful outcomes at 76% while goals between 45000 and 49,999 had the least successful rate at 0%. In contrast, goals between 45000 and 49999 had the highest rate of failed outcomes with 100% while goals less than 1000 had the least failed outcome with 24%. There were no canceled outcomes for this analysis. 
 
